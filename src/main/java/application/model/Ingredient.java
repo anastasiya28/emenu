@@ -52,7 +52,6 @@ public class Ingredient {
 
     }
 
-// Вариант переопределения метода: public int hashCode() {...}, который сделала я, с учетом проверки на null!!!
     @Override
     public int hashCode() {
         int result = id.hashCode();
